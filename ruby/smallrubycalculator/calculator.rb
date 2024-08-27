@@ -13,11 +13,9 @@ class Calculator
     end
 
     def divide(*numbers)
-        begin
-            return numbers.reduce(:/)
+        return numbers.reduce(:/)
         rescue ZeroDivisionError => e
             puts "#{e}"
-        end
     end
 
 end
