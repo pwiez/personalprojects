@@ -17,7 +17,7 @@ This project is a simple password generator written in Python, using the tkInter
 
 1. Clone the repository:
     ```sh
-    
+    git clone https://github.com/pwiez/personalprojects.git
     ```
 2. Navigate to the project directory:
     ```sh
