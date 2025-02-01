@@ -17,7 +17,7 @@ This project is a simple password generator written in Python, using the tkInter
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/pwiez/personalprojects.git
+    
     ```
 2. Navigate to the project directory:
     ```sh
@@ -25,6 +25,11 @@ This project is a simple password generator written in Python, using the tkInter
     ```
 3. Install the required dependencies:
     ```sh
+    # Ensure you are in a virtual environment
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    
+    # Install dependencies
     pip install pyperclip==1.9.0
     (or pip install -r requirements.txt)
     ```
@@ -41,4 +46,3 @@ This project is a simple password generator written in Python, using the tkInter
 From the project folder, run the `passwordgenerator.py` file using the terminal (or cmd on Windows) to start the password generator:
 ```sh
 python3 passwordgenerator.py
-```
