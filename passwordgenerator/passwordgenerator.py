@@ -1,3 +1,7 @@
+# Password Generator
+# Author: Pedro Wiezel // github.com/pwiez
+# Description: A simple GUI-based Python password generator.
+
 import tkinter as tk
 import pyperclip
 import random
