@@ -24,7 +24,7 @@ This is a simple Morse Code Translator built using Python and Tkinter. It allows
 
 ## Usage
 
-1. Run the Morse Code Translator:
+1. From the project directory, open a terminal and run the Morse Code Translator:
     ```bash
     python3 morsecodetranslator.py
     ```
