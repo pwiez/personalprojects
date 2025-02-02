@@ -6,7 +6,7 @@ This is a simple Morse Code Translator built using Python and Tkinter. It allows
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/morsecodetranslator.git
+    git clone https://github.com/pwiez/morsecodetranslator.git
     ```
 2. Navigate to the project directory:
     ```sh
