@@ -31,7 +31,6 @@ This project is a simple password generator written in Python, using the tkInter
     
     # Install dependencies
     pip install pyperclip==1.9.0
-    (or pip install -r requirements.txt)
     ```
 4. Ensure `tkinter` is installed:
 - **Linux**:
