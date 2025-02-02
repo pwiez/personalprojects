@@ -70,16 +70,20 @@ class PasswordApp:
         password = ''
         character_choice_array = []
 
+        # for each character type that the user chose to include, 
+        # that character type gets added to the array of random choices
         if self.numbers_flag.get() : character_choice_array.extend(NUMBERS_LIST)
         if self.lowercase_letters_flag.get(): character_choice_array.extend(LOWERCASE_LETTERS_LIST)
         if self.uppercase_letters_flag.get(): character_choice_array.extend(UPPERCASE_LETTERS_LIST)
         if self.symbols_flag.get(): character_choice_array.extend(SYMBOLS_LIST)
 
+        # if no character type was selected, the copy to clipboard button is disabled
         if len(character_choice_array) == 0:
             self.result_label.config(fg="red", text="Please choose the character types for your password!")
             self.copy_button.config(state=tk.DISABLED)
         else: self.copy_button.config(state=tk.NORMAL)
 
+        # assembling the password randomly from the choice array
         for char in range(self.password_length.get()):
             password += str(random.choice(character_choice_array))
         self.result_label.config(fg="black",text=password)
