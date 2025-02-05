@@ -1,3 +1,7 @@
+# Morse Code Translator
+# Author: Pedro Wiezel // github.com/pwiez
+# Description: A simple GUI-based Python Morse code translator, supporting alphanumeric characters, punctuation and some special symbols.
+
 import tkinter as tk
 import re
 import pyperclip
